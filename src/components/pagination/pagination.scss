@@ -1,0 +1,29 @@
+.link{
+    text-decoration: none;
+    color: black;
+    padding: 8px 10px;
+    text-align: center;
+    border:solid 2px black;
+    border-radius: 50%;
+    min-width: 15px;
+    transition: 0.5s linear;
+}
+.link:hover{
+    background: rgba(0, 255, 255, 0.315);
+}
+.li-item{
+    list-style-type: none; 
+    margin: 0 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}
+.active{
+    
+    -webkit-box-shadow: 0px 0px 7px 1px #00eeff;
+    -moz-box-shadow: 0px 0px 7px 1px #00eeff;
+    box-shadow: 0px 0px 7px 1px #00eeff6b;
+    font-weight: bold;
+    background: rgba(0, 255, 255, 0.315);
+}
