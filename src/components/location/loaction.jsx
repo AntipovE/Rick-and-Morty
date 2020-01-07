@@ -9,7 +9,7 @@ const Location = ({ locations }) => {
       {locations.map((loc) => (
         <div key={loc.id} className="locations__item location-item">
           <div className=" item-header">
-            <div className="item-header__title">{loc.name}</div>
+      <div className="item-header__title">{loc.name} ({loc.type})</div>
           </div>
           <div className="item__body">
             <Link to={`/location/${loc.id}`}>
